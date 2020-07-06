@@ -460,11 +460,12 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 20px;
+    margin-top: 20px;
+    margin-right: 35px;
     color: white;
 }
 
-.nav>a {
+.nav>a, .social>a {
     color: white;
     border-color: white;
     border-radius: 50%;
@@ -477,6 +478,9 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+    text-decoration: none;
+    float: left;
+    margin-left: 5px;
 }
 
 .fill-img {
@@ -487,11 +491,19 @@ body {
     margin-bottom: 21px;
 }
 
-.col-lg-6 {
+.col-lg-6>div {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-color: white;
     border-style: solid;
     border-width: 2px;
     margin-bottom: 30px;
+}
+
+.social {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    color: white;
 }
